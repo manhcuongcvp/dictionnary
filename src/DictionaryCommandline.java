@@ -15,11 +15,10 @@ public class DictionaryCommandline {
         DictionaryManagement DM = new DictionaryManagement();
         DM.insertFromCommandline(a);
         showAllWords(a);
-        //Dictionary tmp = new Dictionary();
     }
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Dictionary tmp = new Dictionary();
         dictionaryBasic(tmp);
-    }
+    }*/
 }

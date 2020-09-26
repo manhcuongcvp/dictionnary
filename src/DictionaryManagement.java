@@ -17,22 +17,4 @@ public class DictionaryManagement {
 
         sc.close();
     }
-
-    /*public static void main(String[] args) {
-        Dictionary a = new Dictionary();
-        //insertFromCommandline(tmp);
-
-        Scanner sc = new Scanner(System.in);
-        a.SIZE = sc.nextInt();
-        String tmp = sc.nextLine();;
-
-        for (int i = 0; i < a.SIZE; i++) {
-            String aa = sc.nextLine();
-            String bb = sc.nextLine();
-            a.setWord_array(aa, bb, i);
-            //a.word_array[i].setWord_target(aa);
-            //a.word_array[i].setWord_explain(bb);
-            //System.out.println(i + " " + a.word_array[i].getWord_target() + " " + a.word_array[i].getWord_explain());
-        }
-    }*/
 }
